@@ -1,0 +1,45 @@
+dependencies: \
+  /Users/nikolasvasconcelos/Work/superbooks/node_modules/react-native/React/CxxBridge/NSDataBigString.mm \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Target\ Support\ Files/React-Core/React-Core-prefix.pch \
+  /Users/nikolasvasconcelos/Work/superbooks/node_modules/react-native/React/CxxBridge/NSDataBigString.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Headers/Public/React-cxxreact/cxxreact/JSBigString.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/Exception.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/Conv.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Headers/Public/DoubleConversion/double-conversion/double-conversion.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Headers/Public/DoubleConversion/double-conversion/utils.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/Demangle.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/FBString.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/CppAttributes.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/Portability.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/portability/Config.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/CPortability.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/Traits.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/hash/Hash.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/Utility.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/functional/ApplyTuple.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/functional/Invoke.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/Preprocessor.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/hash/SpookyHashV1.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/hash/SpookyHashV2.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/lang/Bits.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/ConstexprMath.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/lang/Assume.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/portability/Builtins.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/lang/Exception.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/memory/Malloc.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/memory/detail/MallocImpl.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/Expected.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/Likely.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/Optional.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/Unit.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/lang/ColdClass.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/Range.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/portability/Constexpr.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/portability/String.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/CpuId.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/detail/RangeCommon.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Headers/Public/glog/glog/logging.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Headers/Public/glog/glog/log_severity.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Headers/Public/glog/glog/vlog_is_on.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/detail/RangeSse42.h \
+  /Users/nikolasvasconcelos/Work/superbooks/ios/Pods/Folly/folly/portability/Math.h
