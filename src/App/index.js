@@ -7,16 +7,17 @@
  */
 
 import React from 'react';
-import {SafeAreaView} from 'react-native';
-
+import {Provider} from 'react-redux';
 import '../Themes/fontAwesome';
-import Home from '../Components/HomeScreen/index';
+
+import {BooksStore} from '../Redux/Stores';
+import AppContainer from '../Containers/AppContainer';
 
 function App() {
   return (
-    <SafeAreaView>
-      <Home />
-    </SafeAreaView>
+    <Provider store={BooksStore}>
+      <AppContainer />
+    </Provider>
   );
 }
 
