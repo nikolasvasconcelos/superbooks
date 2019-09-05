@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {TextInput, Keyboard} from 'react-native';
+import PropTypes from 'prop-types';
 
 function SearchInput({searchHandler}) {
   const [searchValue, setSearch] = useState('');
@@ -21,6 +22,8 @@ function SearchInput({searchHandler}) {
 }
 
 export default SearchInput;
+
+SearchInput.propTypes = {searchHandler: PropTypes.func};
 
 const styles = {
   input: {

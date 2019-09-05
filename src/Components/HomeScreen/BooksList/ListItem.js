@@ -1,6 +1,7 @@
 import React from 'react';
 import {View, Text, Image, TouchableHighlight, StyleSheet} from 'react-native';
 import moment from 'moment';
+import PropTypes from 'prop-types';
 
 function ListItem({
   title,
@@ -42,6 +43,17 @@ function ListItem({
 }
 
 export default ListItem;
+
+ListItem.propTypes = {
+  title: PropTypes.string,
+  authors: PropTypes.array,
+  imageLinks: PropTypes.object,
+  publisher: PropTypes.string,
+  publishedDate: PropTypes.string,
+  id: PropTypes.string,
+  navigate: PropTypes.func,
+  getBookById: PropTypes.func,
+};
 
 const styles = StyleSheet.create({
   container: {

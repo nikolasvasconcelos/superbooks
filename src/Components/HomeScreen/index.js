@@ -1,5 +1,6 @@
 import React, {useReducer} from 'react';
 import {View, Text} from 'react-native';
+import PropTypes from 'prop-types';
 
 import {Header} from '../Shared';
 import SearchBooks from './SearchBooks';
@@ -31,6 +32,14 @@ function Home({books, totalOfBooks, requestBooks, navigation, getBookById}) {
 }
 
 Home.navigationOptions = {header: <Header />};
+
+Home.propTypes = {
+  books: PropTypes.array,
+  totalOfBooks: PropTypes.number,
+  requestBooks: PropTypes.func,
+  navigation: PropTypes.object,
+  getBookById: PropTypes.func,
+};
 
 export default Home;
 
