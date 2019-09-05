@@ -2,6 +2,7 @@ import React from 'react';
 import {View, Text, Image, StyleSheet, ScrollView} from 'react-native';
 import moment from 'moment';
 import ISO6391 from 'iso-639-1';
+import PropTypes from 'prop-types';
 
 import {Header} from '../Shared';
 import BookDescription from './BookDescription';
@@ -75,6 +76,8 @@ function BookDetailScreen({detailedBook}) {
 }
 
 BookDetailScreen.navigationOptions = {header: <Header />};
+
+BookDetailScreen.propTypes = {detailedBook: PropTypes.object};
 
 export default BookDetailScreen;
 

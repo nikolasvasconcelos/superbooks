@@ -1,6 +1,7 @@
 import React from 'react';
 import {FlatList} from 'react-native';
 import moment from 'moment';
+import PropTypes from 'prop-types';
 
 import ListHeader from './ListHeader';
 import ListItem from './ListItem';
@@ -46,6 +47,14 @@ function BooksList({books, from, to, navigate, getBookById}) {
 }
 
 export default BooksList;
+
+BooksList.propTypes = {
+  books: PropTypes.array,
+  from: PropTypes.string,
+  to: PropTypes.string,
+  navigate: PropTypes.func,
+  getBookById: PropTypes.func,
+};
 
 const styles = {
   container: {

@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {View, Text} from 'react-native';
+import PropTypes from 'prop-types';
 
 import DatePicker from './DatePickerWrapper';
 import SearchInput from './SearchInput';
@@ -33,6 +34,11 @@ function SearchBooks({searchHandler, setFilters}) {
 }
 
 export default SearchBooks;
+
+SearchBooks.propTypes = {
+  searchHandler: PropTypes.func,
+  setFilters: PropTypes.func,
+};
 
 const styles = {
   container: {

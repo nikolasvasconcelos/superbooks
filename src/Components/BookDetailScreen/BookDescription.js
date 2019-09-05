@@ -1,25 +1,24 @@
 import React from 'react';
 import {Text} from 'react-native';
+import PropTypes from 'prop-types';
 
-function BookDescription({label, description, value}) {
+function BookDescription({label, description}) {
   return (
     <>
       <Text style={styles.descriptionName}>{label} </Text>
       <Text style={styles.descriptionData}>
-        {typeof description != 'string' ? (
-          description.map((d, i) => {
-            console.log(d);
-            return <Text key={i}>{d[`${value}`]}</Text>;
-          })
-        ) : (
-          <Text>{description}</Text>
-        )}
+        <Text>{description}</Text>
       </Text>
     </>
   );
 }
 
 export default BookDescription;
+
+BookDescription.propTypes = {
+  label: PropTypes.string,
+  description: PropTypes.string,
+};
 
 const styles = {
   descriptionName: {

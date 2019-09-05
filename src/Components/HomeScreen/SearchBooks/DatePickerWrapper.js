@@ -3,6 +3,7 @@ import {StyleSheet} from 'react-native';
 import DatePicker from 'react-native-datepicker';
 import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
 import moment from 'moment';
+import PropTypes from 'prop-types';
 
 function DateWrapper({dateValue, setDate, placeholder}) {
   return (
@@ -30,10 +31,16 @@ function DateWrapper({dateValue, setDate, placeholder}) {
       iconComponent={<FontAwesomeIcon icon={['far', 'calendar-alt']} />}
       onDateChange={date => setDate(date)}
     />
-  )
+  );
 }
 
 export default DateWrapper;
+
+DateWrapper.propTypes = {
+  dateValue: PropTypes.string,
+  setDate: PropTypes.func,
+  placeholder: PropTypes.string,
+};
 
 const styles = StyleSheet.create({
   container: {
